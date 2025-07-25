@@ -1,0 +1,52 @@
+{
+  "exchange": {
+    "name": "kraken",
+    "key": "${KRAKEN_KEY}",
+    "secret": "${KRAKEN_SECRET}",
+    "pair_whitelist": [
+      "BTC/USD",
+      "ETH/USD",
+      "BTC/EUR",
+      "ETH/EUR",
+      "USDT/USD",
+      "XRP/USD",
+      "ADA/USD",
+      "SOL/USD",
+      "DOGE/USD",
+      "AVAX/USD",
+      "MATIC/USD",
+      "LTC/USD",
+      "DOT/USD",
+      "TRX/USD",
+      "LINK/USD",
+      "ARB/USD",
+      "SHIB/USD",
+      "OP/USD",
+      "ATOM/USD",
+      "UNI/USD",
+      "XMR/USD",
+      "EUR/USD",
+      "BTC/USDT",
+      "ETH/USDT",
+      "USDT/EUR"
+    ]
+  },
+  "freqai": {
+    "enabled": true
+  },
+  "api_server": {
+    "enabled": true,
+    "listen_ip_address": "0.0.0.0",
+    "listen_port": 8080
+  },
+  "webserver": {
+    "enabled": true,
+    "host": "0.0.0.0",
+    "port": 8080
+  },
+  "logger": {
+    "level": "INFO",
+    "rotation": "1 week",
+    "retention": "2 weeks"
+  }
+}
